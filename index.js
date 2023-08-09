@@ -63,7 +63,7 @@ if (isAuthentic) {
 
 res.redirect(
   // `http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`
-  "http://localhost:3000/payment"
+  "https://paymentarzor.onrender.com/payment"
 );
 } else {
 res.status(400).json({
